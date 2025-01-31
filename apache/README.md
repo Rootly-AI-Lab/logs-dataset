@@ -4,13 +4,15 @@ Apache HTTP Server is one of the most widely used web servers, powering millions
 
 ## Files
 
+### Access logs
 - **apache_access.log** – Raw access log file.
-- **apache_access_parsed.csv** – Parsed log file containing the following fields:  
+- **apache_access_parsed.csv** – Parsed log file containing the following fields:
   ```LogID, Timestamp, ClientIP, HTTPMethod, StatusCode, RequestPath, Referer, UserAgent```
 - **apache_access_types.csv** – Indexed list of unique HTTP request types found in the access logs.
+### Error logs
 - **apache_error.log** – Raw error log file.
-- **apache_error_parsed.csv** – Parsed error log file with the following fields:  
-  ```LogID, Timestamp, LogLevel, Message```
+- **apache_error_parsed.csv** – Parsed error log file with the following fields:
+  ```LogID, Timestamp, LogLevel, Message, LogType```
 - **apache_error_types.csv** – Indexed list of unique error message types found in the error logs.
 
 This dataset is useful for web security research, detecting malicious behavior, optimizing server performance, and training AI-powered monitoring tools.
