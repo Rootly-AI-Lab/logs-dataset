@@ -1,0 +1,21 @@
+LogTypeId,LogTypeMessage
+T1,Invalid user
+T2,Received disconnect from
+T3,Disconnected from invalid user
+T4,Connection closed by invalid user
+T5,error: kex_exchange_identification: Connection closed by
+T6,error: kex_exchange_identification: client sent invalid protocol identifier
+T7,banner exchange: Connection
+T8,error: kex_exchange_identification: banner line contains invalid characters
+T9,Connection reset by
+T10,Unable to negotiate with
+T11,error: maximum authentication attempts exceeded for
+T12,Disconnecting authenticating user
+T13,Accepted publickey for
+T14,pam_unix(sshd:session): session opened for user
+T15,pam_unix(sshd:session): session closed for user
+T16,Disconnecting invalid user
+T17,error: Protocol major versions differ
+T18,Connection closed by
+T19,Disconnected from authenticating user
+T20,Disconnected from

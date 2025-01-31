@@ -1,0 +1,43 @@
+LogType,MessagePattern
+T1,AH00163
+T2,AH00094
+T3,AH00171
+T4,AH01630
+T5,AH01797
+T6,AH02032
+T7,AH02042
+T8,AH10244
+T9,Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+T10,Attempt to serve directory
+T11,Digest: done
+T12,Digest: generating secret for digest authentication ...
+T13,Directory index forbidden by rule
+T14,File does not exist
+T15,PHP Fatal error:  Uncaught Error: Call to undefined function
+T16,Invalid URI in request GET  HTTP/1.1
+T17,Invalid method in request get
+T18,LDAP: Built with OpenLDAP LDAP SDK
+T19,LDAP: SSL support unavailable
+T20,PHP Fatal error:  Uncaught Error: Class
+T21,PHP Warning:  Undefined array key
+T22,attempt to invoke directory as script:
+T23,child process
+T24,client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23)
+T25,config.update(): Can't create
+T26,env.createBean2(): Factory error
+T27,jk2_init() Can't find child
+T28,jk2_init() Found child
+T29,mod_jk child init
+T30,mod_jk child workerEnv in error state
+T31,mod_jk2 Shutting down
+T32,mod_python: Creating 32 session mutexes based on 150 max processes and 0 max threads.
+T33,mod_security/1.9dev2 configured
+T34,request failed: URI too long
+T35,request failed: error reading the headers
+T36,script not found or unable to stat
+T37,suEXEC mechanism enabled
+T38,uriMap.mapUri() uri must start with
+T39,workerEnv.init() ok
+T40,PHP Fatal error:  Uncaught Error: Interface
+T41,PHP Fatal error:  Uncaught Error: Undefined constant
+T42,mod_security: Access denied with code 403

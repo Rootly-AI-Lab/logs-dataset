@@ -1,0 +1,6 @@
+LogType,MessagePattern
+T1,GET
+T2,HEAD
+T3,OPTIONS
+T4,POST
+T5,PRI
