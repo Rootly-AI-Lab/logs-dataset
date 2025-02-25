@@ -1,0 +1,19 @@
+[project]
+name = "evalx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "laurence.w.liang@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pytest>=8.3.4",
+]
+
+[project.scripts]
+evalx = "evalx:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

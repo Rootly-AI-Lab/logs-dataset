@@ -1,0 +1,5 @@
+# Ignore pycache
+**__pycache__**
+
+# Ignore lock files
+**.lock
