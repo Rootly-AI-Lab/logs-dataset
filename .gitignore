@@ -3,3 +3,6 @@
 
 # Ignore lock files
 **.lock
+
+# Ignore .env
+**.env
