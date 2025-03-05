@@ -1,6 +1,4 @@
-![rootly.com logo](rootly.com-logo.png)
-
-[Rootly](https://rootly.com/) is an AI-powered on-call and incident response platform trusted by companies like Canva, Cisco, LinkedIn and NVIDIA. As part of our effort to constantly improve our AI features and to give back to the community, we are maintaining a dataset of system logs  – both access and error – openly accessible for researching, benchmarking and training AI-powered tools. Our dataset are logs from real production environments, no synthetic data.
+Dataset of system logs  – both access and error – openly accessible for researching, benchmarking and training AI-powered tools. Our dataset is logs from real production environments, no synthetic data.
 
 Please cite this repo if you use our dataset and feel free to contribute by submitting a PR or sharing logs with us. ❤️
 
@@ -10,3 +8,6 @@ Please cite this repo if you use our dataset and feel free to contribute by subm
 | Apache | error | 531| [📁](/apache) |
 | OpenSSH | access, error |38660 | [📁](/openssh)
 
+# About the Rootly AI Lab
+This repository is maintained by the Rootly AI Lab. The Lab is a fellow-led program designed to redefine incident management and reliability. We develop innovative AI prototypes, create open-source tools, and produce research reports shared with the community.
+![Rootly AI logo](https://github.com/Rootly-AI-Lab/EventOrOutage/raw/main/rootly-ai.png)
