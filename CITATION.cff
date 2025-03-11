@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as follows."
+title: "Your Project Title"
+authors:
+  - family-names: "Doe"
+    given-names: "Jane"
+date-released: "2025-03-11"
+url: "https://github.com/your-username/your-repo"
