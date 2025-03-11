@@ -1,6 +1,6 @@
 Dataset of system logs  – both access and error – openly accessible for researching, benchmarking and training AI-powered tools. Our dataset is logs from real production environments, no synthetic data.
 
-Please [cite this repo](https://github.com/Rootly-AI-Lab/logs-dataset#cite-this-repository) if you use our dataset, and feel free to contribute by submitting a PR or sharing logs with us. ❤️
+Please [cite this repo](https://github.com/Rootly-AI-Lab/logs-dataset/blob/main/CITATION.cff) if you use our dataset, and feel free to contribute by submitting a PR or sharing logs with us. ❤️
 
 | System | Log Type | Log Count | Dataset |
 |-----------------|-----------------|-----------------|-----------------|
