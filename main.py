@@ -2,14 +2,18 @@ from evalx import evalx
 import anthropic
 import os
 import dotenv
+import openai
 
 dotenv.load_dotenv()
 
 ANTHROPIC_API_KEY = os.getenv("X_ANTHROPIC_API_KEY")
+OPENAI_API_KEY = os.getenv("X_OPENAI_API_KEY")
 
 anthropic_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+openai_client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
-def test_func(text):
+
+def test_func(text, model=None):
     prompt = f"""
     Given this error log:
     {text}
@@ -62,22 +66,30 @@ def test_func(text):
     Only respond with the error type (TXX)
 
     """
-    
-    message = anthropic_client.messages.create(
-        model="claude-3-7-sonnet-20250219",
-        max_tokens=1024,
-        messages=[
-                {"role": "user", "content": prompt}
-        ]
-    )
 
-    print(message.content[0].text)
+    if model == "sonnet-3.7":
+        message = anthropic_client.messages.create(
+            model="claude-3-7-sonnet-20250219",
+            max_tokens=1024,
+            messages=[{"role": "user", "content": prompt}],
+        )
 
-    return message.content[0].text
+        print(message.content[0].text)
+        return message.content[0].text
+
+    if model == "o1-mini":
+        completion = openai_client.chat.completions.create(
+            model="o1-mini", messages=[{"role": "user", "content": prompt}]
+        )
+        print(completion.choices)
+        print(completion.choices[0].message)
+        return completion.choices[0].message.content
+
 
 def main():
-    res = evalx.run_eval(test_func, verbose=False)
+    res = evalx.run_eval(test_func, model="o1-mini", verbose=False)
     print(res)
-    
+
+
 if __name__ == "__main__":
     main()

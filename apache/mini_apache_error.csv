@@ -1,0 +1,11 @@
+Log
+[Wed Jan 29 00:00:02 2024] [mpm_prefork:notice] [pid 2898323] AH00163: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Wed Jan 29 00:00:02 2024] [core:notice] [pid 2898323] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Jan 29 00:36:30 2024] [authz_core:error] [pid 3631249] [client 128.199.182.55:48804] AH01630: client denied by server configuration: /var/www/rootly.com/server-status
+[Wed Jan 29 02:43:10 2024] [authz_core:error] [pid 3632037] [client 64.23.218.208:60720] AH01630: client denied by server configuration: /var/www/rootly.com/server-status
+[Tue Jan 28 00:00:00 2024] [mpm_prefork:notice] [pid 2898323] AH00163: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Tue Jan 28 00:00:00 2024] [core:notice] [pid 2898323] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Jan 28 01:30:41 2024] [ssl:error] [pid 3614263] [client 167.94.138.188:44188] AH02032: Hostname www.sylvainkalache.com provided via SNI and hostname 15.235.49.49 provided via HTTP have no compatible SSL setup
+[Tue Jan 28 03:16:50 2024] [core:error] [pid 3614152] [client 42.52.32.221:20928] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+[Tue Jan 28 03:16:57 2024] [core:error] [pid 3614151] [client 42.52.32.221:21624] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)
+[Tue Jan 28 03:39:58 2024] [core:error] [pid 3614262] [client 78.153.140.224:60466] AH10244: invalid URI path (/../.env)

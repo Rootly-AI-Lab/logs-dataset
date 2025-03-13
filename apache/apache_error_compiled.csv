@@ -1,0 +1,201 @@
+Log,Expected
+"[Wed Jan 29 00:00:02 2024] [mpm_prefork:notice] [pid 2898323] AH00163: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+",notice
+"[Wed Jan 29 00:00:02 2024] [core:notice] [pid 2898323] AH00094: Command line: '/usr/sbin/apache2'
+",notice
+"[Wed Jan 29 00:36:30 2024] [authz_core:error] [pid 3631249] [client 128.199.182.55:48804] AH01630: client denied by server configuration: /var/www/rootly.com/server-status
+",error
+"[Wed Jan 29 02:43:10 2024] [authz_core:error] [pid 3632037] [client 64.23.218.208:60720] AH01630: client denied by server configuration: /var/www/rootly.com/server-status
+",error
+"[Tue Jan 28 00:00:00 2024] [mpm_prefork:notice] [pid 2898323] AH00163: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+",notice
+"[Tue Jan 28 00:00:00 2024] [core:notice] [pid 2898323] AH00094: Command line: '/usr/sbin/apache2'
+",notice
+"[Tue Jan 28 01:30:41 2024] [ssl:error] [pid 3614263] [client 167.94.138.188:44188] AH02032: Hostname www.sylvainkalache.com provided via SNI and hostname 15.235.49.49 provided via HTTP have no compatible SSL setup
+",error
+"[Tue Jan 28 03:16:50 2024] [core:error] [pid 3614152] [client 42.52.32.221:20928] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+",error
+"[Tue Jan 28 03:16:57 2024] [core:error] [pid 3614151] [client 42.52.32.221:21624] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)
+",error
+"[Tue Jan 28 03:39:58 2024] [core:error] [pid 3614262] [client 78.153.140.224:60466] AH10244: invalid URI path (/../.env)
+",error
+"[Tue Jan 28 09:21:19 2024] [core:error] [pid 3614202] [client 115.236.79.230:36324] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+",error
+"[Tue Jan 28 09:21:22 2024] [core:error] [pid 3618871] [client 115.236.79.230:51478] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)
+",error
+"[Tue Jan 28 10:14:24 2024] [authz_core:error] [pid 3623863] [client 162.158.49.6:54508] AH01630: client denied by server configuration: /var/www/rootly.com/wp-content/uploads/wpcf7_uploads/
+",error
+"[Tue Jan 28 11:24:08 2024] [authz_core:error] [pid 3624704] [client 209.38.208.202:40752] AH01630: client denied by server configuration: /var/www/rootly.com/server-status
+",error
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:15 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:16 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 495
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 496
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 497
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 498
+",warn
+"[Tue Jan 28 11:29:17 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 499
+",warn
+"[Tue Jan 28 11:29:18 2024] [php:warn] [pid 3623857] [client 150.136.69.140:58487] PHP Warning:  Undefined array key ""HTTP_USER_AGENT"" in /var/www/sylvainkalache.com/wp-content/themes/themify-base/themify/themify-functions.php on line 494
+",warn
+"Tue Jan 28 14:43:25.170587 2024] [ssl:error] [pid 3625237] [client 206.168.34.211:38178] AH02032: Hostname rootly.com provided via SNI and hostname 15.235.49.49 provided via HTTP have no compatible SSL setup
+",UNKNOWN
+"[Tue Jan 28 16:21:20 2024] [php:warn] [pid 3626480] [client 134.209.255.169:4391] PHP Warning:  Undefined array key ""host"" in /var/www/rootly.com/wp-includes/canonical.php on line 717
+",warn
+"[Tue Jan 28 16:21:20 2024] [php:warn] [pid 3626480] [client 134.209.255.169:4391] PHP Warning:  Undefined array key ""host"" in /var/www/rootly.com/wp-includes/canonical.php on line 728
+",warn
+"[Tue Jan 28 16:21:20 2024] [php:warn] [pid 3626480] [client 134.209.255.169:4391] PHP Warning:  Undefined array key ""host"" in /var/www/rootly.com/wp-includes/canonical.php on line 731
+",warn
