@@ -1,10 +1,10 @@
 import pandas as pd
-
+import random
 
 def create_csv():
     LOGS_FILEPATH = "apache/apache_error.log"
     LABELS_FILEPATH = "apache/apache_error_parsed.csv"
-    OUTPUT_FILEPATH = "apache/apache_error_compiled.csv"
+    OUTPUT_FILEPATH = "apache/apache_error_mini.csv"
 
     logs_list = []
     with open(LOGS_FILEPATH, "r") as logs_fp:
@@ -24,13 +24,19 @@ def create_csv():
             "length of logs_list does not match length of labels_df.shape[0]"
         )
 
-    target_df = pd.DataFrame(columns=["Log", "LogLevel"])
+    target_df = pd.DataFrame(columns=["Log", "LogLevel", "LogType"])
 
-    N = 100 # TODO: add option for mini (100) or full dataset
+    N = 300 # TODO: add option for mini (100) or full dataset
 
-    for i in range(N):
-        target_df.loc[i] = [logs_list[i], labels_df["LogLevel"].values[i]]
+    # print(len(logs_list))
+    # print(labels_df.shape)
 
+    if len(logs_list) != labels_df.shape[0]:
+        raise IndexError("logs_list length not equal to labels_df number of rows.")
+
+
+    for i in random.sample(range(len(logs_list)),N):
+        target_df.loc[i] = [logs_list[i], labels_df["LogLevel"].values[i], labels_df["LogType"].values[i]]
 
     target_df.to_csv(OUTPUT_FILEPATH, index=False)
 
